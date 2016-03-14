@@ -1,0 +1,96 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+div#content, form {
+	margin: auto auto;
+	width: 700px;
+}
+div#content > div.date {
+	color: #aaa;
+}
+div#content > div.text {
+	border-bottom: 1px solid #111;
+	margin: 5px 0 15px 0;
+	padding: 5px 0 25px 0;
+}
+div#header {
+	height: 40px;
+	margin: auto auto;
+	padding: 20px 0 20px 0;
+	width: 700px;
+}
+div#title {
+	background-color: #ddd;
+	clear: left;
+	margin: 20px 0 20px 0;
+}
+div#title a {
+	background-color: #fff;
+	border: 1px solid #111;
+	color: #000;
+	margin: 0 -1px 0 0;
+	padding: 3px 8px;
+	text-decoration: none;
+}
+div#title a.selected {
+	background-color: #aaa;
+}
+div#title > div {
+	margin: auto auto;
+	padding: 5px 0 5px 0;
+	width: 700px;
+}
+div#title > div > h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+div.label {
+	font-weight: bold;
+}
+div.submit {
+	width: 300px;	
+}
+div.submit-date {
+	float: left;
+	height: 100px;
+	width: 300px;
+}
+div.submit-categories {
+	float: right;
+	height: 100px;
+	width: 300px;
+}
+div.submit-text {
+	height: 300px;
+	width: 300px;	
+}
+input.date, input.title {
+	border: 1px solid #000;
+	margin: 5px 0 15px 0;
+}
+input.title {
+	width: 300px;
+}
+textarea {
+	border: 1px solid #000;
+	height: 200px;
+	width: 300px;
+}
+img.logo {
+	url: "/assets/image/elva-logo.png"
+}
+span.note {
+	color: #aaa;
+}

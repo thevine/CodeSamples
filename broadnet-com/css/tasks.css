@@ -1,0 +1,37 @@
+div.button {
+	background-image: url('../image/add-icon.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	margin-top: 2px;
+	width: 16px;
+}
+div.button.add {
+	background-image: url('../image/add-icon.png');
+}
+div.button.delete {
+	background-image: url('../image/delete-icon.png');
+}
+.hidden {
+	display: none;
+}
+.text {
+	width: 200px;
+}
+#taskContainer {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 4px;
+	padding: 4px;	
+}
+#taskList {
+	width: 400px;
+}
+#tasks {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 4px;
+	padding: 4px;
+}

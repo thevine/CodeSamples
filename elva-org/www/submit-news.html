@@ -1,0 +1,67 @@
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Sample News Website</title>
+		<script src="//code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="/assets/js/submit.js"></script>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="/assets/css/default.css" type="text/css"/>
+	</head>
+	<body>
+		<div id="header">
+			<div class="left">
+				<img src="/assets/image/elva-logo.png" class="logo"/>
+			</div>
+			<div class="right">
+				<a href="/">News</a> |
+				<span>Submit News</span>
+			</div>
+		</div>
+		<div id="title">
+			<div>
+				<h1>Submit News</h1>
+			</div>
+		</div>
+		<form id="form_article" action="/api/submit-news">
+			<div class="submit-date">
+				<div class="label">News date</div>
+				<input type="text" id="datepicker" class="date" name="date"/>
+			</div>
+			<div class="submit-categories">
+				<div class="label">Choose news category</div>
+				<div>
+					<span class="note">(you can select more than one category)</span>
+				</div>
+				<div class="clear left">
+					<input type="checkbox" name="category" value="1"/> Politics<br/>
+					<input type="checkbox" name="category" value="2"/> Business<br/>
+					<input type="checkbox" name="category" value="3"/> Sport<br/>
+				</div>
+				<div class="right">
+					<input type="checkbox" name="category" value="4"/> Art &amp; Culture<br/>
+					<input type="checkbox" name="category" value="5"/> Lifestyle<br/>
+					<input type="checkbox" name="category" value="6"/> Fashion				
+				</div>
+			</div>
+			<div class="submit-text clear left">
+				<div class="label">Title <span class="note">(English)</span></div>
+				<input type="text" class="title" name="title_en"/>
+
+				<div class="label">Text <span class="note">(English)</span></div>
+				<textarea name="text_en"></textarea>
+			</div>
+			<div class="submit-text right">
+				<div class="label"><span class="note">(Georgian)</span></div>
+				<input type="text" class="title" name="title_ge"/>
+
+				<div class="label"><span class="note">(Georgian)</span></div>
+				<textarea name="text_ge"></textarea>
+			</div>
+			<div class="submit">
+				<button>Submit</button>	
+			</div>
+		</form>
+	</body>
+</html>
