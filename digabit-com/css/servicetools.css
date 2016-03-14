@@ -1,0 +1,49 @@
+#folderTree .x-tree-icon-leaf {
+	background-image: url("../image/folder-open.gif") !important;
+}
+#pathTree .x-tree-icon-tag {
+	background-image: url("../image/xml-tag.gif") !important;
+}
+#pathTree .x-tree-icon-attribute {
+	background-image: url("../image/attribute.gif") !important;
+}
+.analysis-bad {
+	color: #ff0000;
+}
+.analysis-good {
+	color: #008800;
+}
+.check {
+	background-image: url("../image/check.png") !important;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+.x-grid-rowbody {
+	white-space: nowrap;
+}
+table.dataview td {
+	font-size: 10px;
+	vertical-align: top;
+}
+table.dataview td:nth-child(odd) {
+	background: #efefef;
+	border-radius: 6px;
+	font-size: 18px;
+	padding: 4px 20px 4px 4px;
+	text-align: center;
+}
+table.dataview tr:nth-child(even) {
+	background-color: #f0f0f0;
+}
+td.rowexpander {
+	padding: 6px;
+}
+.filter-masked {
+	opacity: 0.50;
+	filter: alpha(opacity=50);
+}
+.filter-hilight {
+	color: #008800;
+	font-weight: bold;
+}
